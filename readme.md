@@ -1,0 +1,24 @@
+# minecraft server master
+dockerでのminecraftのサーバー起動。  
+[itzg/minecraft-server](https://docker-minecraft-server.readthedocs.io/en/latest/#using-docker-compose)を利用。
+
+## 使い方
+```
+git clone https://github.com/ShunsukeNONOMURA/minecraft-server-master.git
+docker compose up
+
+# 起動後にdataフォルダが作成される
+```
+
+## よく触るパラメータ
+### docker-compose.yml
+| 項目                | 説明       | 例       |
+| ------------------- | ---------- | -------- |
+| environment.VERSION | バージョン | "1.20.4" |
+
+### data/server.properties
+| 項目       | 説明                               | 例       |
+| ---------- | ---------------------------------- | -------- |
+| difficulty | 難易度                             | easy     |
+| gamemode   | ゲームモード                       | survival |
+| level-name | ワールドの指定（配布ワールドなど） | world    |

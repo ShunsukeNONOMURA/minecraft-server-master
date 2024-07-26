@@ -1,0 +1,14 @@
+version: '2'
+services:
+    minecraft-server:
+        image: itzg/minecraft-server
+        ports:
+            - "25565:25565"
+        tty: true
+        stdin_open: true
+        #restart: always
+        volumes:
+            - ./data:/data
+        environment:
+            EULA: "TRUE"
+            VERSION: "1.20.4"
