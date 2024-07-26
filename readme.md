@@ -22,3 +22,7 @@ docker compose up
 | difficulty | 難易度                             | easy     |
 | gamemode   | ゲームモード                       | survival |
 | level-name | ワールドの指定（配布ワールドなど） | world    |
+
+## その他
+- https://nj-clucker.com/wp-content/php/portcheck.php
+    - minecraftのポート開放チェッカー（デフォルト：25565の場合）
