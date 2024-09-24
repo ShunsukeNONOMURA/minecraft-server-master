@@ -51,5 +51,12 @@ docker compose up
 | bypassesPlayerLimit | ログインユーザ数が最大でもログインできるかどうか |
 
 ## その他
-- https://nj-clucker.com/wp-content/php/portcheck.php
-    - minecraftのポート開放チェッカー（デフォルト：25565の場合）
+### minecraftのポート開放チェッカー（デフォルト：25565の場合）
+https://nj-clucker.com/wp-content/php/portcheck.php
+
+### ローカルワールドを公開する場合
+```
+/publish [<allowCommands>] [<gamemode>] [<port>]
+/publish true adventure 25565
+```
+https://minecraft.fandom.com/ja/wiki/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/publish
