@@ -17,11 +17,15 @@ docker compose up
 | environment.VERSION | バージョン | "1.20.4" |
 
 ### data/server.properties
-| 項目       | 説明                               | 例       |
-| ---------- | ---------------------------------- | -------- |
-| difficulty | 難易度                             | easy     |
-| gamemode   | ゲームモード                       | survival |
-| level-name | ワールドの指定（配布ワールドなど） | world    |
+| 項目                 | 説明                               | 例                  |
+| -------------------- | ---------------------------------- | ------------------- |
+| difficulty           | 難易度                             | peaceful, easy      |
+| enable-command-block | コマンド実行許可                   | ture                |
+| force-gamemode       | ゲームモードの強制                 | false               |
+| gamemode             | ゲームモード                       | survival, adventure |
+| level-name           | ワールドの指定（配布ワールドなど） | world               |
+| simulation-distance  | 演算距離                           | 10                  |
+| view-distance        | 描画距離                           | 10                  |
 
 ### data/ops.json
 管理者権限の設定。  
