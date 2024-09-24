@@ -20,7 +20,7 @@ docker compose up
 | 項目                 | 説明                               | 例                  |
 | -------------------- | ---------------------------------- | ------------------- |
 | difficulty           | 難易度                             | peaceful, easy      |
-| enable-command-block | コマンド実行許可                   | ture                |
+| enable-command-block | コマンド実行許可                   | true                |
 | force-gamemode       | ゲームモードの強制                 | false               |
 | gamemode             | ゲームモード                       | survival, adventure |
 | level-name           | ワールドの指定（配布ワールドなど） | world               |
